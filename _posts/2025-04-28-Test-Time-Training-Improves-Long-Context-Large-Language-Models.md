@@ -1,7 +1,7 @@
 ---
-layout: distill
-title: Sample Blog Post
-description: Your blog post's abstract.
+layout: ttt
+title: Test Time Training Improves Long Context Large Language Models
+description: Intuitively, the LLM can memorize the long context and leverage the in-context knowledge to reason, by fine-tuning the LLM on the language modeling task of the context. We propose to fine-tune the LLM on the language modeling task during test time.
   Please add your abstract or summary here and not in the main body of your text. 
   Do not include math/latex or hyperlinks.
 date: 2025-04-28
@@ -35,6 +35,7 @@ bibliography: 2025-04-28-distill-example.bib
 #     for hyperlinks within the post to work correctly. 
 #   - please use this format rather than manually creating a markdown table of contents.
 toc:
+  - name: motivation
   - name: Equations
   - name: Images and Figures
     subsections:
@@ -68,6 +69,9 @@ _styles: >
 ---
 
 Note: please use the table of contents as defined in the front matter rather than the traditional markdown styling.
+## Motivation
+
+Intuitively, the LLM can memorize the long context and leverage the in-context knowledge to reason, by fine-tuning the LLM on the language modeling task of the context. We propose to fine-tune the LLM on the language modeling task during test time.
 
 ## Equations
 
